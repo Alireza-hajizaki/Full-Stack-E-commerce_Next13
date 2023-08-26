@@ -1,10 +1,16 @@
-import Button from "@/components/Buttons";
-import { UserButton } from "@clerk/nextjs";
+"use client"
+
+import { Modal } from "@/components/ui/modal";
+
+// import { UserButton } from "@clerk/nextjs";
 
 const setupPage =  () =>  {
     return (
       <div className="p-4">
-        <UserButton afterSignOutUrl="/" />
+        <Modal title="Test" description="Test Dest" isOpen onClose={() => {}}>
+          children
+        </Modal>
+        {/* <UserButton afterSignOutUrl="/" /> */}
       </div>
     )
   }
