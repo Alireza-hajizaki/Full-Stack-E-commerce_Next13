@@ -1,7 +1,10 @@
 {
     "cSpell.words": [
+        "datasource",
         "hookform",
+        "Interal",
         "nextjs",
+        "prismadb",
         "trpc"
     ]
 }
