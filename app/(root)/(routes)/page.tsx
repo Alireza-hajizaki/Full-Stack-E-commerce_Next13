@@ -18,15 +18,7 @@ const setupPage =  () =>  {
     }
   },[isOpen,onOpen])
 
-    return (
-      <div className="p-4">
-        Root Page
-        {/* <Modal title="Test" description="Test Dest" isOpen onClose={() => {}}>
-          children
-        </Modal> */}
-        {/* <UserButton afterSignOutUrl="/" /> */}
-      </div>
-    )
+    return null;
   }
 
   export default setupPage;
