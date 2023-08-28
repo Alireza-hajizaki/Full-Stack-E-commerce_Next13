@@ -7,7 +7,7 @@ import Image from "next/image";
 import {CldUploadWidget} from "next-cloudinary";
 
 interface ImageUploadProps{
-    disabled: boolean;
+    disabled ?: boolean;
     onChange: (value:string) => void;
     onRemove: (value:string) => void;
     value: string[];
@@ -53,7 +53,7 @@ const ImageUpload :React.FC<ImageUploadProps> = ({
                     </div>
                 ))}
             </div>
-            <CldUploadWidget onUpload={onUpload} uploadPreset="pt8ehm0c">
+            <CldUploadWidget onUpload={onUpload} uploadPreset="dadyd5lk">
                 {({open}) => {
                     const onClick = () => {
                         open()
