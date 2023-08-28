@@ -16,7 +16,7 @@ async function DashboardLayout({
     redirect("/sign-in");
   }
 
-  const store = await prismadb.store.findFirst({
+  const store =await prismadb.store.findFirst({
     where: {
       id: params.storeId,
       userId,
