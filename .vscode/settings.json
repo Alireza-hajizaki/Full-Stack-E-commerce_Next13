@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "cloudinary",
+        "dadyd",
         "datasource",
         "hookform",
         "Interal",
@@ -8,6 +9,7 @@
         "nextjs",
         "prismadb",
         "shirink",
+        "tanstack",
         "trpc"
     ]
 }
